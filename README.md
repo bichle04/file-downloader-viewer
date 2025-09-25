@@ -27,31 +27,6 @@ A React + Vite application for downloading and viewing files locally using Capac
   - @capacitor/filesystem (local file storage)
   - @capacitor/browser (external file viewing)
 
-## Project Structure
-
-\`\`\`
-src/
-├── components/          # Reusable UI components
-│   ├── DownloadForm.jsx    # URL input and download form
-│   ├── FileList.jsx        # List of downloaded files
-│   ├── FileItem.jsx        # Individual file item
-│   ├── FileViewer.jsx      # File preview modal
-│   ├── ProgressBar.jsx     # Download progress indicator
-│   ├── DownloadProgress.jsx # Download status tracking
-│   ├── StatusIndicator.jsx # Success/error messages
-│   ├── LoadingSpinner.jsx  # Loading animation
-│   └── Header.jsx          # App header
-├── hooks/               # Custom React hooks
-│   ├── useDownloader.js    # Download management
-│   └── useFileManager.js   # File operations
-├── pages/               # Application pages
-│   ├── HomePage.jsx        # Main application page
-│   └── FileViewerPage.jsx  # Full-screen file viewer
-├── services/            # Business logic
-│   └── fileService.js      # File operations & Capacitor integration
-├── App.jsx             # Main app component
-└── main.jsx            # Application entry point
-\`\`\`
 
 ## Getting Started
 
